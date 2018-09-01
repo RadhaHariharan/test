@@ -1,0 +1,232 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	width: 100%;
+}
+.heading
+{
+	font-size: 80px;
+	position: absolute;
+	color: green;
+	text-decoration: none;
+	top: 5vh;
+	left: 20vw;
+
+}
+.form
+{
+	position: absolute;
+	top: 50vh;
+	left: 38vw;
+}
+.signin
+{
+	font-size: 20px;
+	position: fixed;
+	margin-right: 25px;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background-color: white;
+	border: 1px solid red;
+	left: 75vw;
+	top: 30vh;
+}
+.signin:hover
+{
+	background-color: #00FF7F;
+}
+.buttonone
+{
+	text-decoration: none;
+}
+.signup
+{
+	font-size: 20px;
+	position: fixed;
+	left: 50vw;
+	margin-right: 25px;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background-color: white;
+	border: 1px solid red;
+	top: 30vh;
+	left: 14vw;
+}
+.signup:hover
+{
+	background-color: #00FF7F;
+}
+.buttontwo
+{
+	text-decoration: none;
+}
+.formsignup
+{
+	font-size: 17px;
+	position: absolute;
+	top: 50vh;
+	left: 38vw;
+
+}
+.firstname
+{
+	position: fixed;
+	top: 42vh;
+}
+.firstnamebox
+{
+	position: fixed;
+	top:42vh;
+	left: 50vw;
+}
+.firstnameerror
+{
+	position: fixed;
+	top:42vh;
+	left: 63vw;
+	color: red;
+}
+.lastname
+{
+	position: fixed;
+	top: 46vh;
+}
+.lastnamebox
+{
+	position: fixed;
+	top:46vh;
+	left: 50vw;
+}
+.lastnameerror
+{
+	position: fixed;
+	top:46vh;
+	left: 63vw;
+	color: red;
+}
+.username
+{
+	position: fixed;
+	top: 50vh;
+}
+.usernamebox
+{
+	position: fixed;
+	top: 50vh;
+	left: 50vw;
+}
+.usernameerror
+{
+	position: fixed;
+	top:50vh;
+	left: 63vw;
+	color: red;
+}
+.mail
+{
+	position: fixed;
+	top: 54vh;
+}
+.mailbox
+{
+	position: fixed;
+	top:54vh;
+	left: 50vw;
+}
+.mailerror
+{
+	position: fixed;
+	top:54vh;
+	left: 63vw;
+	color: red;
+}
+.phone
+{
+	position: fixed;
+	top: 58vh;
+}
+.phonebox
+{
+	position: fixed;
+	top:58vh;
+	left: 50vw;
+}
+.phoneerror
+{
+	position: fixed;
+	top:58vh;
+	left: 63vw;
+	color: red;
+}
+.gender
+{
+	position: fixed;
+	top: 62vh;
+}
+.genderradio
+{
+	position: fixed;
+	top:62vh;
+	left: 50vw;
+}
+.dob
+{
+	position: fixed;
+	top: 66vh;
+}
+.dobbox
+{
+	position: fixed;
+	top:66vh;
+	left: 50vw;
+}
+.password
+{
+	position: fixed;
+	top: 70vh;
+}
+.passwordbox
+{
+	position: fixed;
+	top:70vh;
+	left: 50vw;
+}
+.repassword
+{
+	position: fixed;
+	top: 74vh;
+}
+.repasswordbox
+{
+	position: fixed;
+	top:74vh;
+	left: 50vw;
+}
+.passworderror
+{
+	position: fixed;
+	top:74vh;
+	left: 63vw;
+	color: red;
+}
+.create
+{
+	position: fixed;
+	top: 82vh;
+	left: 54vw;
+}
+.compulsary
+{
+	position: fixed;
+	top : 78vh;
+	left: 50vw;
+}

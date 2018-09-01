@@ -1,0 +1,71 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	width: 100%;
+}
+.heading
+{
+	font-size: 80px;
+	position: absolute;
+	color: green;
+	text-decoration: none;
+	top: 5vh;
+	left: 20vw;
+
+}
+.form
+{
+	position: absolute;
+	top: 50vh;
+	left: 38vw;
+}
+.signin
+{
+	font-size: 20px;
+	position: fixed;
+	margin-right: 25px;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background-color: white;
+	border: 1px solid red;
+	left: 75vw;
+	top: 30vh;
+}
+.signin:hover
+{
+	background-color: #00FF7F;
+}
+.buttonone
+{
+	text-decoration: none;
+}
+.signup
+{
+	font-size: 20px;
+	position: fixed;
+	left: 50vw;
+	margin-right: 25px;
+	padding: 10px 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background-color: white;
+	border: 1px solid red;
+	top: 30vh;
+	left: 14vw;
+}
+.signup:hover
+{
+	background-color: #00FF7F;
+}
+.buttontwo
+{
+	text-decoration: none;
+}
