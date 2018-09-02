@@ -11,7 +11,6 @@
 		$check = mysqli_fetch_array($result);
 		if(isset($check)) {
 			echo 'success';
-			echo $check;
 		} else {
 			echo 'failure';
 		}

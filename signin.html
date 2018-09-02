@@ -3,13 +3,14 @@
 <head>
 	<title>USER KNOWN-SIGNIN</title>
 	<link rel="stylesheet" type="text/css" href="signin.css">
+	<script type="text/javascript" src="signin.js"></script>
 </head>
 <body>
 	<div class='heading'>
 		<h2>USER KNOWN</h2>
 	</div>
 	<div class="form">
-		<form action="signin.php" method="get" onsubmit="return formvalidate();">
+		<form action="signin.php" method="get" onsubmit="return formvalidate()">
 			<div class="signin">
 				<a href="signin.html" class="buttonone">sign in</a>				
 			</div>
@@ -17,10 +18,12 @@
 				<a href="signup.html" class="buttontwo">sign up</a>
 			</div>
 			<div class="username">
-				<b>Username : <input type="text" name="username" placeholder="Username"></b>
+				<b>Username : <input type="text" name="username" id="username" placeholder="Username"></b>
+				<p><span id="usernameerror" class="usernameerror"></span></p>
 			</div>
 			<div class="password">
-				<b>Password : <input type="password" name="password" placeholder="Password"></b>
+				<b>Password : <input type="password" name="password" id="password" placeholder="Password"></b>
+				<p><span id="passworderror" class="passworderror"></span></p>
 			</div>			
 			<dir class="submit">
 				<input type="submit" value="Submit">
