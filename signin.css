@@ -73,24 +73,10 @@ body
 {
 	position: fixed;
 }
-.usernameerror
-{
-	position: fixed;
-	top : 50vh;
-	left: 58vw;
-	color: red;
-}
 .password
 {
 	position: fixed;
 	top: 55vh;
-}
-.passworderror
-{
-	position: fixed;
-	top : 55vh;
-	left: 58vw;
-	color: red;
 }
 .submit
 {

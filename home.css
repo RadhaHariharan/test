@@ -1,0 +1,103 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	width:100%;
+}
+nav
+{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100vw;
+	height:13vh;
+	transition:.3s;
+	background-color: #00FF7F;
+}
+.logo
+{
+	position:relative;
+	top:3vh;
+	left:0.5vw;
+	width:60px;
+	height:60px;
+}
+h3
+{
+	position: relative;
+	text-transform: unset;
+	color: white;
+	display: inline;
+	font-size: 25px;
+	top:0vh;
+	left: 1vw;
+	width:60px;
+	height:60px;
+}
+.main-nav
+{
+	float: right;
+	margin-top:10px;
+	list-style:none;
+}
+.main-nav li
+{
+	display: black;
+	padding:20px 0px;
+}
+.main-nav li a
+{
+	font-family: sans-serif;
+	font-size: 18px;
+	padding: 5px 20px;
+	text-decoration: none;
+	color:black;
+}
+.main-nav li a:hover
+{
+	border:1px solid red;
+	background-color: white; 
+}
+.home
+{
+	position: fixed;
+	top: 4vh;
+	left: 50vw;
+}
+.notification
+{
+	position: fixed;
+	top: 4vh;
+	left: 59vw;
+}
+.aboutus
+{
+	position: fixed;
+	top: 4vh;
+	left: 70vw;
+}
+.signout
+{
+	position: fixed;
+	top: 4vh;
+	left: 80vw;
+}
+.v1
+{
+	position: fixed;
+	border-right: 6px solid green;
+	height: 645px;
+	top: 13vh;
+	left: 19vw;
+}
+.v2
+{
+	position: fixed;
+	border-right: 6px solid green;
+	height: 645px;
+	top: 13vh;
+	right: 19vw;
+}

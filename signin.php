@@ -1,5 +1,4 @@
-<?php
-
+<?php	
 	require_once 'login.php';
 	$conn = new mysqli($hn,$un,$pw,$db);
 
@@ -10,9 +9,10 @@
 		$result = $conn->query($query);
 		$check = mysqli_fetch_array($result);
 		if(isset($check)) {
-			echo 'success';
+			header("Location:home.html");
 		} else {
-			echo 'failure';
+			echo "failure";
+
 		}
 
 	}
