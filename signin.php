@@ -15,6 +15,13 @@
 
 		}
 
+		$query = "SELECT * FROM signin WHERE mail = '$username' AND password = '$password'";
+		$result = $conn->query($query);
+		$check = mysqli_fetch_array($result);
+		if(isset($check)) {
+			header("Location:home.html");
+		} 
+
 	}
 
 ?>

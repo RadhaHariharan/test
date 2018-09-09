@@ -20,7 +20,7 @@
 
 		$result = $conn->query($query);
 
-		$query2 = "INSERT INTO signin(username,password) VALUES('$username','$password')";
+		$query2 = "INSERT INTO signin(username,password,mail) VALUES('$username','$password','$mail')";
 		$result2 = $conn->query($query2);
 		header('Location:signup.html');
 

@@ -88,7 +88,7 @@ h3
 .v1
 {
 	position: fixed;
-	border-right: 6px solid green;
+	border-right: 6px solid #00FF7F;
 	height: 645px;
 	top: 13vh;
 	left: 19vw;
@@ -96,7 +96,7 @@ h3
 .v2
 {
 	position: fixed;
-	border-right: 6px solid green;
+	border-right: 6px solid #00FF7F;
 	height: 645px;
 	top: 13vh;
 	right: 19vw;
