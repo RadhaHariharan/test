@@ -1,6 +1,8 @@
 <?php	
 	require_once 'login.php';
 	$conn = new mysqli($hn,$un,$pw,$db);
+	session_start();
+	$_SESSION['username'] = '';
 
 	if ($_SERVER['REQUEST_METHOD']=='GET') {
 		$username = $_GET['username'];
@@ -9,6 +11,9 @@
 		$result = $conn->query($query);
 		$check = mysqli_fetch_array($result);
 		if(isset($check)) {
+			if(isset($_SESSION["username"])) {
+				$_SESSION['usernamedisp'] = $username;
+			}
 			header("Location:home.html");
 		} else {
 			echo "failure";
@@ -20,8 +25,8 @@
 		$check = mysqli_fetch_array($result);
 		if(isset($check)) {
 			header("Location:home.html");
-		} 
+		}
+	} 
 
-	}
 
 ?>

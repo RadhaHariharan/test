@@ -22,6 +22,9 @@
 
 		$query2 = "INSERT INTO signin(username,password,mail) VALUES('$username','$password','$mail')";
 		$result2 = $conn->query($query2);
+
+		$query3 = "CREATE TABLE $username(friends varchar(20))";
+		$result3 = $conn->query($query3);
 		header('Location:signup.html');
 
 	}	

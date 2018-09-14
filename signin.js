@@ -1,3 +1,6 @@
+home.js var usernamedisp1 = document.getElementById('username').value;
+localStorage.setItem("usernamedisplay",usernamedisp1);
+
 function formvalidate() 
 {
 	var username = document.getElementById('username').value;
