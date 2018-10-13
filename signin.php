@@ -13,8 +13,8 @@
 		if(isset($check)) {
 			if(isset($_SESSION["username"])) {
 				$_SESSION['usernamedisp'] = $username;
+				header("Location:home.php");
 			}
-			header("Location:home.html");
 		} else {
 			echo "failure";
 
@@ -24,9 +24,11 @@
 		$result = $conn->query($query);
 		$check = mysqli_fetch_array($result);
 		if(isset($check)) {
-			header("Location:home.html");
+			header("Location:home.php");
 		}
 	} 
 
 
 ?>
+
+

@@ -101,3 +101,9 @@ h3
 	top: 13vh;
 	right: 19vw;
 }
+.image
+{
+	position: fixed;
+	top: 30vh;
+	left: 40vw;
+}
